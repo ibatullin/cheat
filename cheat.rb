@@ -123,3 +123,8 @@ Generating the raw data for a git impact chart ala GitHub:
 Remove *.pyc files:
 
   rm **/*.pyc
+  
+Push drafts to gerrit:
+
+  git push origin HEAD:refs/drafts/master
+
